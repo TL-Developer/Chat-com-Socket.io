@@ -1,2 +1,2 @@
-# Chat-com-Socket.io
-Chat com Socket.io
+# App Chat com Socket.io
+Feito com: NodeJS, Socket.io, Express.

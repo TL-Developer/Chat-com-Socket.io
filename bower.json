@@ -1,0 +1,19 @@
+{
+  "name": "Chat-com-Socket.io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/tldigitaldesigner/Chat-com-Socket.io",
+  "authors": [
+    "Tiago Lima <tiago.jlima@yahoo.com.br>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
