@@ -1,0 +1,28 @@
+__________________________________________________
+
+Emoticons: https://www.npmjs.com/package/emoticons
+__________________________________________________
+
+Inserir nickname
+__________________________________________________
+
+Após inserir http da imagem, mostrar imagem em si
+__________________________________________________
+
+Vídeos Conferencias de 5 min
+__________________________________________________
+
+Rotas para entrar nas salas(são paulo, rio de janeiro, minas gerais...)
+_________________________________________________
+
+Puxar Avatar do facebook
+__________________________________________________
+
+Puxar quantidade de pessoas online
+__________________________________________________
+
+Opção de bloquear usuário
+__________________________________________________
+
+
+
