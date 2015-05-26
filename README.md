@@ -1,2 +1,3 @@
-# App Chat com Socket.io
-Feito com: NodeJS, Socket.io, Express.
+# Single Page Aplication Chat com Socket.io
+
+Desenvolvido com: NodeJS, AngularJS, Express, Bower...
