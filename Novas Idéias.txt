@@ -39,5 +39,14 @@ __________________________________________________
 Preload css: http://tobiasahlin.com/spinkit/
 __________________________________________________
 
+Inserir se já foi visualizado a mensagem
+__________________________________________________
+
+Inserir horas das mensagens
+__________________________________________________
+
+Inserir foto da pessoa quando envia as mensagens
+__________________________________________________
+
 
 

@@ -1,0 +1,213 @@
+$azul: #00eaff;
+$azulEscuro: #016973;
+$azulClaroEscuro: #0096a4;
+$bahaus: "Bauhaus 93";
+
+// div{
+// 	border: 1px solid red;
+// }
+.closedMenu{
+	left: -230px;
+}
+.openMenu{
+	left: 0;
+}
+.mainMenu{
+	position: fixed;
+	background: $azul;
+	height: 100%;
+	z-index: 10;
+	width: 230px;
+	border-right: 2px solid $azulClaroEscuro;
+	transition: left 1s ease;
+	-webkit-transition: left 1s ease;
+	-moz-transition: left 1s ease;
+	-ms-transition: left 1s ease;
+	-o-transition: left 1s ease;
+
+	.avatar{
+		width: 100%;
+		padding-left: 5px;
+		float: left;
+		margin: 3px 0px 0;
+
+		.imgAvatar{
+			width: 90px;
+			float: left;
+			border-radius: 5px;
+
+			img{
+				width: 100%;
+			}
+		}
+
+		.infoAvatar{
+			width: 125px;
+			float: left;
+			margin-left: 5px;
+
+			h1{
+				font-family: $bahaus;
+				color: $azulEscuro;
+				font-size: 18px;
+				margin: 0;
+			}
+
+			p{
+				font-family: $bahaus;
+				color: $azulClaroEscuro;
+				font-size: 14px;
+				margin: 0;
+			}
+
+			.btnStatusPerfil{
+				margin-top: 10px;
+
+				button{
+					background: #fff;
+					border: 2px solid $azulClaroEscuro;
+				}
+
+				.dropdown-menu{
+					
+					li{
+						position: relative;
+						margin: 5px 0;
+
+						img{
+							position: absolute;
+							left: 7px;
+							top: 6px;
+						}
+						a{
+							padding-left: 25px;
+						}
+					}
+				}
+			}
+
+			.online{
+				color: #12ff00;
+			}
+		}
+	}
+
+	hr{
+		float: left;
+		width: 218px;
+		margin-left: 3px;
+		height: 2px;
+		display: block; 
+	    border: 0; 
+	    border-top: 1px solid $azulEscuro;
+	}
+
+	.colsLeft{
+		width: 100%;
+		padding-left: 5px;
+		float: left;
+		margin: 0;
+
+		h1{
+			font-family: $bahaus;
+			color: $azulEscuro;
+			font-size: 20px;
+			margin: 0;
+		}
+
+		ul{
+		    scrollbar-face-color: $azulClaroEscuro;
+		    scrollbar-shadow-color: #FFFFFF;
+		    scrollbar-highlight-color: #FFFFFF;
+		    scrollbar-3dlight-color: #FFFFFF;
+		    scrollbar-darkshadow-color: #FFFFFF;
+		    scrollbar-track-color: #FFFFFF;
+		    scrollbar-arrow-color: #FFFFFF;
+		}
+
+		/* Let's get this party started */
+		ul::-webkit-scrollbar {
+		    width: 8px;
+		}
+		 
+		/* Track */
+		ul::-webkit-scrollbar-track {
+		    -webkit-box-shadow: inset 0 0 6px $azulClaroEscuro; 
+		    -webkit-border-radius: 30px;
+		    border-radius: 30px;
+		}
+		 
+		/* Handle */
+		ul::-webkit-scrollbar-thumb {
+		    -webkit-border-radius: 30px;
+		    border-radius: 30px;
+		    background: $azulEscuro; 
+		    -webkit-box-shadow: inset 0 0 6px $azulClaroEscuro; 
+		}
+
+		ul{
+			width: 95%;
+			list-style: none;
+			margin: 10px 0 0;
+			float: left;
+  			padding: 0;
+  			overflow-y: scroll;
+  			height: 280px;
+
+			li{
+				float: left;
+				width: 98%;
+				position: relative;
+				font-family: $bahaus;
+				color: #fff;
+				font-size: 18px;
+				margin: 3px 0;
+				padding: 3px 22px;
+				border-radius: 5px;
+
+				img{
+					position: absolute;
+					left: 4px;
+					top: 8px;
+				}
+			}
+
+			li:hover{
+				background: $azulClaroEscuro;
+			}
+		}
+	}
+
+	.btnCloseMenu{
+		position: absolute;
+		right: -14px;
+		top: 50%;
+		background: $azulClaroEscuro;
+		width: 22px;
+		height: 45px;
+		border-radius: 5px;
+		cursor: pointer;
+
+		span{
+			color: #fff;
+			padding: 11px 1px;
+			font-size: 20px;
+		}		
+	}
+}
+
+#chat{
+	height: 450px;
+	overflow-y: scroll;
+}
+.containerChat{
+	border: 2px solid #2c3e50;
+	border-radius: 5px;
+	padding: 15px;
+}
+.enviarMensagem{
+	margin-top: 25px;
+}
+/*.profile .imgProfile{
+	width: 100%;
+}*/
