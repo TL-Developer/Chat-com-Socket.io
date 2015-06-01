@@ -2,6 +2,7 @@ $azul: #00eaff;
 $azulEscuro: #016973;
 $azulClaroEscuro: #0096a4;
 $bahaus: "Bauhaus 93";
+$cinza: #ebebeb;
 
 // div{
 // 	border: 1px solid red;
@@ -196,18 +197,40 @@ $bahaus: "Bauhaus 93";
 	}
 }
 
-#chat{
-	height: 450px;
-	overflow-y: scroll;
+.contentChat{
+	
+	#chat{
+		height: 525px;
+		overflow-y: scroll;
+	}
+
+	.navegacao{
+		height: 65px;
+	}
+
+	.containerChat{
+		border: 2px solid $cinza;
+		border-radius: 5px;
+		padding: 15px;
+	}
+	.enviarMensagem{
+		margin-top: 25px;
+	}
+
+	#send-message{
+
+		textarea#message{
+			border-radius: 5px;
+			height: 185px;
+			border-color: $cinza;
+			resize: none;
+		}
+
+		input.enviarMenssage{
+			border-radius: 5px;
+			height: 185px;
+			width: 100%;
+		}
+	}
+
 }
-.containerChat{
-	border: 2px solid #2c3e50;
-	border-radius: 5px;
-	padding: 15px;
-}
-.enviarMensagem{
-	margin-top: 25px;
-}
-/*.profile .imgProfile{
-	width: 100%;
-}*/
