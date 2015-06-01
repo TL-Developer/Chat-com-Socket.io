@@ -2,17 +2,26 @@
   "name": "Chat",
   "version": "1.0.0",
   "description": "Feito com: NodeJS, Socket.io, Express.",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
+  "keywords": [
+    "frontdev",
+    "heroku"
+  ],
   "author": "Tiago Lima",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.12.4",
-    "socket.io": "^1.3.5",
+    "express": "*",
+    "socket.io": "*",
     "body-parser": "^1.6.7",
     "ejs": "^0.8.8",
     "express-load": "^1.1.14",
     "method-override": "^2.1.3"
+  },
+  "engines": {
+    "node": "0.12.2"
   }
 }
